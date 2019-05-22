@@ -1,6 +1,7 @@
 import React from "react";
 import Welcome from "./Welcome/Welcome";
 import Calculator from "./Calculator/Calculator";
+import Counter from "./Counter/Counter";
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
       <Welcome name="Cahal" />
       <Welcome name="Edite" />
       <Calculator />
+      <br />
+      <Counter />
     </div>
   );
 }
